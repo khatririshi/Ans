@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Anshika 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Dancing+Script:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Great+Vibes&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Global flower rain canvas -->
+  <canvas id="globalFlowers"></canvas>
+
+  <!-- Floating Petals -->
+  <div class="petals-container" id="petals"></div>
+
+  <!-- Floating Hearts -->
+  <div class="hearts-container" id="hearts"></div>
+
+  <!-- Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <canvas id="heroFlowers" class="section-canvas"></canvas>
+    <div class="hero-bg-circles">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+      <div class="circle c4"></div>
+      <div class="circle c5"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✨ Something Special ✨</div>
+      <h1 class="hero-title">
+        <span class="title-line-1">Dear</span>
+        <span class="title-name">Anshika</span>
+        <span class="title-line-3">💕</span>
+      </h1>
+      <p class="hero-subtitle">A message straight from the heart...</p>
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+        <span>Scroll to read our story</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+    <div class="hero-deco-left">🌸</div>
+    <div class="hero-deco-right">🌸</div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="story" id="story">
+    <canvas id="storyFlowers" class="section-canvas"></canvas>
+    <div class="story-wrapper">
+      <div class="section-label">Our Story</div>
+      <h2 class="story-title">How It All Began...</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-icon">🪔</div>
+          <div class="timeline-card">
+            <div class="card-tag">Navratri Evening</div>
+            <h3>The First Glance</h3>
+            <p>
+              It was Navratri — the air filled with music, colours, and the warmth of celebration.
+              Amidst all that chaos and joy, <em>I saw you for the very first time.</em>
+              And honestly? Everything else became a blur. I couldn't explain it then,
+              but something inside me quietly said — <strong>"Remember her."</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reverse" data-aos="fade-left">
+          <div class="timeline-icon">👀</div>
+          <div class="timeline-card">
+            <div class="card-tag">Your Eyes</div>
+            <h3>What Got Me</h3>
+            <p>
+              It's your <em>eyes</em>, Anshika. Khas karine tamari aankho —
+              there's something in them that I can't stop thinking about.
+              The way they shine, the way they speak without saying a word.
+              I followed you on Instagram quietly, hoping you'd notice —
+              <strong>but you never did.</strong> And that was okay.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-icon">🚌</div>
+          <div class="timeline-card">
+            <div class="card-tag">The Bus Ride — Khambhat Change</div>
+            <h3>That Unexpected Moment</h3>
+            <p>
+              Then one day, on a last bus from Khambhat, <em>there you were.</em>
+              I froze. I couldn't think. I couldn't speak. My mind went blank —
+              the kind of blank that only happens when something <strong>truly matters.</strong>
+              I just stood there, watching, heart racing, not knowing what to do.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reverse" data-aos="fade-left">
+          <div class="timeline-icon">💫</div>
+          <div class="timeline-card">
+            <div class="card-tag">Eye Contact</div>
+            <h3>Jem Jem Time Jato Gayo...</h3>
+            <p>
+              As time passed, there were those small moments — <em>eye contact</em> —
+              brief, unplanned, but enough to make everything feel different.
+              And now? Now I feel like if I don't see you, something stays
+              <strong>incomplete inside me.</strong> Adhuru. Like a sentence with no ending.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-icon">💻</div>
+          <div class="timeline-card">
+            <div class="card-tag">True Confession</div>
+            <h3>The Honest Part</h3>
+            <p>
+              To be honest — I'm a coder. And yes, a coder used AI to help write this.
+              But the feelings? Every single word? <strong>100% mine.</strong>
+              Because sometimes, when you feel deeply, you just need the right words —
+              and these are them. This is me, all of me, laid bare for you.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LETTER SECTION -->
+  <section class="letter-section" id="letter">
+    <canvas id="letterFlowers" class="section-canvas"></canvas>
+    <div class="letter-wrapper">
+      <div class="letter-envelope">
+        <div class="envelope-top">💌</div>
+        <div class="letter-paper">
+          <div class="letter-header">
+            <div class="letter-date">21st June, 2026</div>
+            <div class="letter-to">Dear Anshika,</div>
+          </div>
+          <div class="letter-body">
+            <p>
+              Hi. Hu tamne khas olakhto nathi ane tame pan mane olakhta nathi.
+              Par Navratri ma pehli vaar jyare me tamne joya hata, tyarthi tame mane gamo cho.
+            </p>
+            <p>
+              Khas kari ne <span class="highlight">tamari aankho</span> mane khub game che.
+              Bas mara man ma je hatu e kahi didhu.
+            </p>
+            <p>
+              <strong>I really like you.</strong>
+            </p>
+            <p>
+              Jo tamaro jawab na hoy to pan koi vandho nathi — hu tamara decision nu
+              respect karish. Instagram ID to che j. Ane kyare pan maru koi kam pade
+              to nissankoch kahi sako cho.
+            </p>
+            <p>
+              Me tamane Navratri ma j paheli var joya hata. Pachhi tamane follow karu
+              pn tame pachhi mane kaiye pn na maliya. Pachhi ek var Khambhat-change ni
+              last bas ma tame dekhaya — tyare hu kasu vichari j na sakiyo.
+            </p>
+            <p>
+              Pachhi jem jem time jata — <em>eye-contact</em> thaya. Ane atiyare mane
+              avu che ke tamane na jovu to maan ma kasu adhuru j lage...
+            </p>
+            <p>
+              So biju bavu che pn atiyare atlu bavu — <span class="highlight">je hatu, aa kai didhu.</span>
+            </p>
+            <p>
+              This is my truth. This is my heart.
+              And this is me, hoping you'll give us a chance. 🌹
+            </p>
+          </div>
+          <div class="letter-footer">
+            <span>With love & hope,</span>
+            <span class="letter-sign">Rishi 💕</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROPOSAL SECTION -->
+  <section class="proposal-section" id="proposal">
+    <!-- flower rain canvas -->
+    <canvas id="flowerCanvas"></canvas>
+
+    <div class="proposal-wrapper">
+      <div class="proposal-content">
+        <div class="proposal-emoji">💍</div>
+        <h2 class="proposal-heading">Anshika...</h2>
+        <p class="proposal-subtext">Will you give us a chance?</p>
+        <p class="proposal-question">
+          Will you be my <span class="special-word">someone special</span>? 🌹
+        </p>
+
+        <div class="button-area" id="buttonArea">
+          <button class="btn-yes" id="yesBtn" onclick="sayYes()">
+            <span class="btn-icon">💕</span>
+            Yes, I will!
+            <span class="btn-glow"></span>
+          </button>
+          <button class="btn-no" id="noBtn" onmouseover="runAway(this)" onclick="runAway(this)" ontouchstart="runAway(this)">
+            <span>No</span>
+          </button>
+        </div>
+
+        <p class="no-pressure">( No pressure — I'll respect whatever you decide 🙏 )</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- YES CELEBRATION OVERLAY — CINEMATIC -->
+  <div class="celebration-overlay" id="celebrationOverlay">
+    <canvas id="yesCanvas"></canvas>
+    <div class="yes-giant-heart">❤️</div>
+    <div class="yes-aurora-1"></div>
+    <div class="yes-aurora-2"></div>
+    <div class="yes-aurora-3"></div>
+
+    <div class="celebration-content">
+      <div class="yes-ring-wrap">
+        <div class="yes-ring-rays"></div>
+        <div class="yes-ring">💍</div>
+      </div>
+
+      <div class="yes-words-row">
+        <span class="yw yw1" id="yw1">She</span>
+        <span class="yw yw2" id="yw2">Said</span>
+      </div>
+      <div class="yes-big" id="yesBig">YES!</div>
+
+      <div class="yes-divider">
+        <span>🌸</span><span class="yes-div-line"></span>
+        <span>💕</span><span class="yes-div-line"></span>
+        <span>🌹</span>
+      </div>
+
+      <p class="yes-tagline" id="yesTagline"></p>
+
+      <blockquote class="yes-quote">
+        “I don’t know where destiny is made —<br/>
+        or how it quietly brings two people together.<br/>
+        But I know this with all my heart —<br/>
+        <em>in any part of this life, I will always be with you.</em><br/>
+        Always. No matter what. Forever.”
+      </blockquote>
+
+      <div class="yes-emoji-wave" id="yesEmojiWave"></div>
+
+      <button class="yes-cta" onclick="closeCelebration()">
+        Begin Our Forever &nbsp;🌹
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
